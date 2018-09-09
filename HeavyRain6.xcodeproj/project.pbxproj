@@ -18,6 +18,9 @@
 		DB6075FB214560FF00999764 /* WeatherDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6075F9214560FF00999764 /* WeatherDetails.xib */; };
 		DB6075FE2145611200999764 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6075FC2145611200999764 /* SearchVC.swift */; };
 		DB6075FF2145611200999764 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6075FD2145611200999764 /* SearchVC.xib */; };
+		DB6076012145C3E700999764 /* CoreDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6076002145C3E700999764 /* CoreDataManger.swift */; };
+		DB6076032145C3F600999764 /* WeatherAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6076022145C3F600999764 /* WeatherAPIManager.swift */; };
+		DB6076072145C42600999764 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6076062145C42600999764 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		DB6075F9214560FF00999764 /* WeatherDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetails.xib; sourceTree = "<group>"; };
 		DB6075FC2145611200999764 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		DB6075FD2145611200999764 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		DB6076002145C3E700999764 /* CoreDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManger.swift; sourceTree = "<group>"; };
+		DB6076022145C3F600999764 /* WeatherAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIManager.swift; sourceTree = "<group>"; };
+		DB6076062145C42600999764 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		DB6075E72144305800999764 /* DataServices */ = {
 			isa = PBXGroup;
 			children = (
+				DB6076002145C3E700999764 /* CoreDataManger.swift */,
+				DB6076022145C3F600999764 /* WeatherAPIManager.swift */,
+				DB6076062145C42600999764 /* LocationManager.swift */,
 			);
 			path = DataServices;
 			sourceTree = "<group>";
@@ -208,6 +217,9 @@
 				DB6075FE2145611200999764 /* SearchVC.swift in Sources */,
 				DB6075FA214560FF00999764 /* WeatherDetails.swift in Sources */,
 				DB6075D521442F7600999764 /* HeavyRain6.xcdatamodeld in Sources */,
+				DB6076072145C42600999764 /* LocationManager.swift in Sources */,
+				DB6076012145C3E700999764 /* CoreDataManger.swift in Sources */,
+				DB6076032145C3F600999764 /* WeatherAPIManager.swift in Sources */,
 				DB6075CD21442F7600999764 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
